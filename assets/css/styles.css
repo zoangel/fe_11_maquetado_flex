@@ -1,0 +1,140 @@
+* {
+    box-sizing:border-box;
+    font-family:"Roboto", "Poppins", sans-serif;
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+}
+
+body {
+    background-color:#E5E5E5;
+}
+
+header {
+    align-items:center;
+    background-color:#222222;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:15px;
+    width:100%;
+}
+
+.p-logo-1{
+    color: green;
+    font-size:30px;
+    font-weight:bold;
+}
+.p-logo-2 {
+    color: white;
+    font-size:30px;
+    font-weight:bold;
+}
+.p-logo-3 {
+    color: #FC200C;
+    font-size:30px;
+    font-weight:bold;
+    padding-right:20px;
+
+}
+
+.menu {
+    color:white;
+    display:flex;
+    gap:10px;
+    font-size:20px;
+}
+
+.hero {
+    align-items:center;
+    background-color:#E5E5E5;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+
+.div-envio {
+    background-image: url("../img/delivery.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius:10px;
+    height:600px;
+    margin:5px;
+    width:40%;
+}
+
+.div-podio {
+    background-image: url("../img/PizzaFalling.jpg");
+    background-repeat:no-repeat;
+    background-color:#FFFFFF;
+    background-position: right 35% bottom 50%;;
+    background-position-left:100px;
+    background-size:150px;
+    border-radius:15px;
+    height:600px;
+    margin:5px;
+    width:40%;
+}
+
+h2 {
+    color:#FC200C;
+    font-size:40px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-left:15px;
+}
+
+h2 span {
+    color: white;
+}
+
+.div-podio h2 {
+    text-align:center;
+}
+
+h3 {
+    font-size:28px;
+    margin: 100px 20px 20px 60px;
+}
+
+.menu-pizzas {
+    font-size: 25px;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+}
+
+.menu-pizzas li {
+    list-style-type: decimal;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+footer {
+    background-color:#222222;
+    bottom:0px;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    position:fixed;
+    width:100%;
+}
+
+.menu-footer {
+    color:white;
+    display:flex;
+    flex-direction:column;
+    font-size:20px;
+    gap:10px;
+    margin-left:20px;
+}
+
+.div-logo {
+    align-items: center;
+    display: flex;
+}
+
+.div-logo img {
+    margin: 15px;
+}
